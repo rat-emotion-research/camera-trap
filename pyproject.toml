@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "camera-trap"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.21.0"
+"ruamel.yaml" = "^0.17.9"
+Flask = "^2.0.1"
+opencv-python-headless = "4.5.1.48"
+ffmpeg-python = "^0.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

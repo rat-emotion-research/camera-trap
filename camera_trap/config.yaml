@@ -1,0 +1,11 @@
+# Video configuration
+device: /dev/video0
+fps: 30
+height: 360
+width: 640
+
+# Motion detection
+threshold: 300000
+
+# Output
+video_folder: videos
